@@ -16,6 +16,10 @@
     background-color: #E02C6D;
 }
 
+.color-white{
+    color: white;
+}
+
 .display-flex{
     display: flex;
 }
@@ -216,6 +220,27 @@ main > section{
     color: white;
     border: none;
     padding: 10px 30px 10px 24px;
+}
+
+
+/* Footer related Styles */
+.footer{
+    text-align: center;
+    background-color: #0A0826;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.footer-title{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.footer-description{
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: #D9DBE1;
 }
 
 /* media query related styles for small-devices */
