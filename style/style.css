@@ -186,6 +186,38 @@ main > section{
     color: rgba(224, 44, 109, 0.87);
 }
 
+/* Features Related Styles */
+.features{
+    align-items: center;
+    gap: 96px;
+    margin-bottom: 100px;
+}
+
+.feature-content{
+    max-width: 610px;
+}
+
+.feature-title{
+    color: #0A0826;
+    font-size: 2.3rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.feature-description{
+    color: #6C6C6C;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.feature-btn{
+    font-size: 1rem;
+    font-weight: 700;
+    color: white;
+    border: none;
+    padding: 10px 30px 10px 24px;
+}
+
 /* media query related styles for small-devices */
 @media screen and (max-width: 576px) {
     .header, .brand-partners
@@ -200,11 +232,11 @@ main > section{
     {
         margin-top: 15px;
     }
-    .navbar, .banner-section
+    .navbar, .banner-section, .features
     {
         text-align: center;
     }
-    .banner-section{
+    .banner-section, .features{
         flex-direction: column-reverse;
     }
     .banner-img{
@@ -228,7 +260,7 @@ main > section{
 
  }
 /* Responsive styles for medium devices */
-@media screen and (min-width: 576px) and (max-width: 992px)
+@media screen and (min-width: 577px) and (max-width: 992px)
 {
     .header
     {
